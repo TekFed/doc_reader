@@ -8,21 +8,21 @@
   </p>
 
   <p>
-    <a href="https://github.com/tekfed-Llins/document-reader/stargazers">
-      <img src="https://img.shields.io/github/stars/tekfed-Llins/document-reader?style=social" alt="GitHub stars">
+    <a href="https://github.com/TekFed/doc_reader/stargazers">
+      <img src="https://img.shields.io/github/stars/TekFed/doc_reader?style=social" alt="GitHub stars">
     </a>
-    <a href="https://github.com/tekfed-Llins/document-reader/issues">
-      <img src="https://img.shields.io/github/issues/tekfed-Llins/document-reader" alt="Open issues">
+    <a href="https://github.com/TekFed/doc_reader/issues">
+      <img src="https://img.shields.io/github/issues/TekFed/doc_reader" alt="Open issues">
     </a>
     <a href="LICENSE">
-      <img src="https://img.shields.io/github/license/tekfed-Llins/document-reader?color=blue" alt="MIT License">
+      <img src="https://img.shields.io/github/license/TekFed/doc_reader?color=blue" alt="MIT License">
     </a>
     <a href="https://www.python.org">
       <img src="https://img.shields.io/badge/python-3.8%2B-blue?logo=python&logoColor=white" alt="Python 3.8+">
     </a>
   </p>
 
-  <img src="https://via.placeholder.com/800x400/2c3e50/ffffff?text=Document+Reader+GUI+Preview" alt="App Screenshot" width="800" />
+  <img src="docs/main-window.png" alt="App Screenshot" width="800" />
 
 </div>
 
@@ -121,4 +121,3 @@ See [LICENSE](LICENSE) for full details.
   © 2026 Collins (@tekfed_Llins)
 
 </div>
-```
