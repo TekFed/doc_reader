@@ -5,7 +5,7 @@ A simple, offline desktop application that converts documents into spoken audio 
 Currently supports saving documents as MP3 files (with automatic filenames).  
 Live reading mode is **coming soon**.
 
-https://github.com/tekfed-Llins/doc_reader
+https://github.com/TekFed/doc_reader
 
 ## ✨ Features
 
@@ -100,3 +100,4 @@ Built with:
 - [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
 
 Made with ❤️ and lots of ☕
+
