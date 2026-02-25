@@ -1,103 +1,124 @@
-# Document Reader - Text to Speech
+<div align="center">
 
-A simple, offline desktop application that converts documents into spoken audio using **pyttsx3**.
+  <h1>📖 Document Reader - Text to Speech</h1>
 
-Currently supports saving documents as MP3 files (with automatic filenames).  
-Live reading mode is **coming soon**.
+  <p>
+    <strong>A beautiful offline desktop app that turns your documents into spoken audio</strong><br>
+    Currently focused on saving MP3 files — live reading mode coming soon! 🚀
+  </p>
 
-https://github.com/TekFed/doc_reader
+  <p>
+    <a href="https://github.com/tekfed-Llins/document-reader/stargazers">
+      <img src="https://img.shields.io/github/stars/tekfed-Llins/document-reader?style=social" alt="GitHub stars">
+    </a>
+    <a href="https://github.com/tekfed-Llins/document-reader/issues">
+      <img src="https://img.shields.io/github/issues/tekfed-Llins/document-reader" alt="Open issues">
+    </a>
+    <a href="LICENSE">
+      <img src="https://img.shields.io/github/license/tekfed-Llins/document-reader?color=blue" alt="MIT License">
+    </a>
+    <a href="https://www.python.org">
+      <img src="https://img.shields.io/badge/python-3.8%2B-blue?logo=python&logoColor=white" alt="Python 3.8+">
+    </a>
+  </p>
+
+  <img src="https://via.placeholder.com/800x400/2c3e50/ffffff?text=Document+Reader+GUI+Preview" alt="App Screenshot" width="800" />
+
+</div>
 
 ## ✨ Features
 
-- Load & preview documents
-- Supported formats: **.txt**, **.pdf**, **.docx**, **.epub**, **.html / .htm**
-- Choose voice and speaking speed
-- Save the entire document as an MP3 file (auto-generated filename)
-- Clean, scrollable Tkinter GUI
+- 📄 Load & preview documents instantly
+- 🎙️ Convert documents to natural-sounding MP3 files
+- ⚙️ Choose voice and speaking speed
+- 📁 Auto-generated filenames (e.g. `report_spoken_20260225_1048.mp3`)
+- 🖥️ Clean, modern, scrollable Tkinter interface
+- 🔌 Completely offline — no internet needed
 
-**Live speak mode (read aloud with pause/resume) is planned for a future release.**
-
-## 📸 Screenshots
-
-![Main window](docs/main-window.png)  
+> **Live speak mode (read aloud with pause/resume) → Coming soon!** ⏳
 
 ## 🚀 Quick Start
 
-### 1. Clone the repository
+### Clone & install
 
 ```bash
-git clone https://github.com/tekfed-Llins/doc_reader.git
-cd doc_reader
-```
+git clone https://github.com/tekfed-Llins/document-reader.git
+cd document-reader
 
-### 2. Install dependencies
-
-```bash
-# Recommended: use a virtual environment
+# Recommended: virtual environment
 python -m venv venv
-source venv/bin/activate    # Linux / macOS
-venv\Scripts\activate       # Windows
+# Windows
+venv\Scripts\activate
+# Linux/macOS
+source venv/bin/activate
 
-# Install required packages
 pip install -r requirements.txt
 ```
 
-### 3. Run the application
+### Run the app
 
 ```bash
 python main.py
 ```
 
-## Supported Formats
+1. Click **Browse** → choose your document (.txt, .pdf, .docx, .epub, .html)
+2. Click **Load & Preview**
+3. Select voice & speed
+4. Choose **Save to MP3** mode
+5. Hit **Start** — MP3 saved automatically!
 
-| Format   | Extension(s)       | Status   |
-|----------|--------------------|----------|
-| Plain Text | `.txt`            | ✅       |
-| PDF      | `.pdf`            | ✅       |
-| Word     | `.docx`           | ✅       |
-| EPUB     | `.epub`           | ✅       |
-| HTML     | `.html`, `.htm`   | ✅       |
+## 📊 Supported Formats
 
-## Requirements
+| Icon | Format       | Extensions            | Status |
+|------|--------------|-----------------------|--------|
+| 📝   | Plain Text   | `.txt`                | ✅     |
+| 📄   | PDF          | `.pdf`                | ✅     |
+| 📘   | Word         | `.docx`               | ✅     |
+| 📚   | EPUB eBook   | `.epub`               | ✅     |
+| 🌐   | HTML/Webpage | `.html`, `.htm`       | ✅     |
 
-See [requirements.txt](requirements.txt) for the full list.
+## 🛠️ Tech Stack
 
-Minimum Python version: **3.8+**  
-(Tested up to Python 3.12)
+- **Python** 3.8+
+- **Tkinter** (GUI)
+- **pyttsx3** (offline TTS)
+- **PyPDF2** • **python-docx** • **ebooklib** • **BeautifulSoup4** (document parsing)
 
-## Planned Features
+## 🗺️ Roadmap
 
-- Live speak mode (real-time reading with pause/resume)
-- Keyboard shortcuts for play/pause/stop
-- Progress bar during MP3 generation for long documents
-- Volume control
-- Dark mode toggle
+- ✅ Save to MP3 with auto filename
+- ⏳ Live speak mode (real-time reading + pause/resume)
+- 🔊 Volume control
+- 🌙 Dark mode toggle
+- ⌨️ Keyboard shortcuts
+- 📊 Progress bar for long documents
 
 ## Contributing
 
-Contributions are welcome!  
-If you want to help with live speak mode, bug fixes, or new formats:
+Pull requests are welcome!  
+Especially excited for help with:
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
+- Implementing live speak mode
+- Improving voice stability on Windows
+- Adding new document formats
+
+1. Fork the repo
+2. Create your feature branch (`git checkout -b feature/live-speak`)
+3. Commit your changes (`git commit -m 'Add live speak mode'`)
+4. Push to the branch (`git push origin feature/live-speak`)
 5. Open a Pull Request
 
-Please open an issue first if you're planning major changes.
+## 📄 License
 
-## License
+Released under the **MIT License**  
+See [LICENSE](LICENSE) for full details.
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+---
 
-## Acknowledgments
+<div align="center">
 
-Built with:
-- [pyttsx3](https://github.com/nateshmbhat/pyttsx3)
-- [PyPDF2](https://github.com/py-pdf/PyPDF2)
-- [python-docx](https://github.com/python-openxml/python-docx)
-- [ebooklib](https://github.com/aerkalov/ebooklib)
-- [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
+  Made with ❤️ and lots of ☕ 
+  © 2026 Collins (@tekfed_Llins)
 
-Made with ❤️ and lots of ☕
-
+</div>
+```
