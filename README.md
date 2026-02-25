@@ -22,7 +22,7 @@
     </a>
   </p>
 
-  <img src="docs/main-window.png" alt="App Screenshot" width="800" />
+  <img src="docs/screenshots/main-window.png" alt="App Screenshot" width="800" />
 
 </div>
 
@@ -121,3 +121,4 @@ See [LICENSE](LICENSE) for full details.
   © 2026 Collins (@tekfed_Llins)
 
 </div>
+
